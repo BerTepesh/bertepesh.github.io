@@ -1,0 +1,43 @@
+body {
+  background: #f5f5f5;
+}
+.wrap {
+  min-width: 320px;
+}
+.projects {
+
+}
+.projects__head {
+  background: #70b161;
+  padding: 40px 0;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+.projects h1 {
+  text-align: center;
+}
+.projects__madeby {
+  text-align: center;
+  font-size: 22px;
+}
+.projects__list {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.projects__name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.projects__list li {
+  text-align: center;
+}
+.projects__img {
+  display: block;
+  height: 300px;
+  background-size: cover;
+  background-position: center top;
+  border: 2px solid #eee;
+  margin-bottom: 10px;
+}
