@@ -32,6 +32,7 @@ body {
 }
 .projects__list li {
   text-align: center;
+  margin-bottom: 40px;
 }
 .projects__img {
   display: block;
