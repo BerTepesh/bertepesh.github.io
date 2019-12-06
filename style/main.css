@@ -63,7 +63,7 @@ h1 + hr:before {
   margin: 0 auto;
 }
 h2 {
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 h2 + hr {
   margin-bottom: 35px;
