@@ -18,6 +18,36 @@
   font-weight: normal;
   font-style: normal;
 }
+[class^='icon-'], [class*=' icon-'] {
+  display: inline-block;
+  vertical-align: middle;
+  background: url("../img/sprite.png") -9999px -9999px no-repeat; }
+
+@media (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+  [class^='icon-'], [class*=' icon-'] {
+    background-image: url("../img/sprite@2x.png");
+    background-size: 120px 29px; } }
+
+.icon-email {
+  width: 29px;
+  height: 29px;
+  background-position: 0 0;
+}
+.icon-phone {
+  width: 29px;
+  height: 29px;
+  background-position: -91px 0;
+}
+.icon-skype {
+  width: 28px;
+  height: 27px;
+  background-position: -31px 0;
+}
+.icon-tg {
+  width: 30px;
+  height: 29px;
+  background-position: -60px 0;
+}
 body {
   background: rgba(33, 37, 41, 0.83);
   font: 16px/24px 'RalewayRegular', sans-serif;
@@ -65,24 +95,6 @@ h1 {
     line-height: 36px;
   }
 }
-hr {
-  position: relative;
-  border: none;
-  height: 2px;
-}
-h1 + hr {
-  margin-bottom: 40px;
-}
-h1 + hr:before {
-  content: '';
-  position: absolute;
-  width: 200px;
-  height: 2px;
-  background: #000;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
 h2 {
   margin-bottom: 25px;
   font-size: 1.5em;
@@ -93,21 +105,8 @@ h2 {
     margin-bottom: 35px;
   }
 }
-h2 + hr {
-  margin-bottom: 35px;
-}
-h2 + hr:before {
-  content: '';
-  position: absolute;
-  width: 150px;
-  height: 1px;
-  background: #000;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
 h3 {
-  margin-bottom: 35px;
+  margin-bottom: 15px;
 }
 .info {
   animation: text-setup 1.5s ease;
@@ -210,4 +209,15 @@ h3 {
 }
 .projects__img:hover:before {
   opacity: 0;
+}
+.social {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+.social li {
+  margin-bottom: 15px;
+}
+.social span {
+  margin-right: 10px;
 }
