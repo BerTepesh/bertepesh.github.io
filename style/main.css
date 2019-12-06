@@ -192,7 +192,22 @@ h3 {
   background-position: center top;
   border: 2px solid #eee;
   margin-bottom: 15px;
+  position: relative;
   -webkit-box-shadow: -1px 2px 12px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: -1px 2px 12px 0px rgba(0,0,0,0.75);
   box-shadow: -1px 2px 12px 0px rgba(0,0,0,0.75);
+}
+.projects__img:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255,255,255,0.2);
+  opacity: 1;
+  transition: all .3s ease;
+}
+.projects__img:hover:before {
+  opacity: 0;
 }
