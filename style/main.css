@@ -116,6 +116,9 @@ h3 {
 .projects {
   animation: text-setup 2.5s ease;
 }
+.projects h2 {
+  margin-bottom: 25px;
+}
 .projects__head {
   background: #70b161;
   padding: 40px 0;
