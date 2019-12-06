@@ -20,7 +20,7 @@
 }
 body {
   background: rgba(33, 37, 41, 0.83);
-  font: 16px 'RalewayRegular', sans-serif;
+  font: 18px 'RalewayRegular', sans-serif;
   letter-spacing: .04em;
   color: #605d5d;
   background: url(../img/back.jpg);
@@ -35,7 +35,7 @@ body {
   -moz-box-shadow: -1px 2px 17px 0px rgba(0,0,0,0.55);
   box-shadow: -1px 2px 17px 0px rgba(0,0,0,0.55);
   padding: 50px 30px;
-  background: #f9f9f9;
+  background: #ffffff;
 }
 h1,
 h2 {
@@ -86,7 +86,7 @@ h2 + hr:before {
   margin-bottom: 20px;
 }
 .skills__holder {
-  max-width: 900px;
+  max-width: 1000px;
   display: inline-block;
   vertical-align: top;
   list-style: none;
@@ -109,6 +109,14 @@ h2 + hr:before {
 .projects__name {
   font-weight: bold;
   margin-bottom: 15px;
+}
+@keyframes setup {
+  from {
+    margin-left: -9999px
+  }
+  to {
+    margin-left: 0;
+  }
 }
 .projects__list li {
   text-align: center;
