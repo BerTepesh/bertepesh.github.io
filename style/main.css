@@ -20,7 +20,7 @@
 }
 body {
   background: rgba(33, 37, 41, 0.83);
-  font: 16px/22px 'RalewayRegular', sans-serif;
+  font: 16px/24px 'RalewayRegular', sans-serif;
   letter-spacing: .035em;
   color: #605d5d;
   background: url(../img/back.jpg);
@@ -124,7 +124,7 @@ h3 {
   padding-left: 0;
 }
 .skills__holder li {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .projects {
   animation: text-setup 2.5s ease;
