@@ -171,6 +171,7 @@ h3 {
 .projects__img {
   display: block;
   height: 300px;
+  border-radius: 6px;
   background-size: cover;
   background-position: center top;
   border: 2px solid #eee;
