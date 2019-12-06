@@ -2,10 +2,65 @@ body {
   background: #f5f5f5;
 }
 .wrap {
+  padding: 50px 40px;
   min-width: 320px;
+  overflow: hidden;
 }
-.projects {
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+hr {
+  position: relative;
+  border: none;
+  height: 2px;
+}
+h1 + hr {
+  margin-bottom: 40px;
+}
+h1 + hr:before {
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 2px;
+  background: #000;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+h2 {
+  margin-bottom: 15px;
+}
+h2 + hr {
+  margin-bottom: 30px;
+}
+h2 + hr:before {
+  content: '';
+  position: absolute;
+  width: 150px;
+  height: 1px;
+  background: #000;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.info {
 
+}
+.skills {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.skills__holder {
+  max-width: 850px;
+  display: inline-block;
+  vertical-align: top;
+  list-style: none;
+  padding-left: 0;
+}
+.skills__holder li {
+  margin-bottom: 10px;
 }
 .projects__head {
   background: #70b161;
@@ -13,17 +68,9 @@ body {
   border-bottom: 2px solid #fff;
   color: #fff;
 }
-.projects h1 {
-  text-align: center;
-}
-.projects__madeby {
-  text-align: center;
-  font-size: 22px;
-}
 .projects__list {
   list-style: none;
   padding-left: 0;
-  padding-top: 40px;
   padding-bottom: 40px;
 }
 .projects__name {
