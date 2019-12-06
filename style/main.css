@@ -38,11 +38,13 @@ body {
   background: #ffffff;
 }
 h1,
-h2 {
+h2,
+h3 {
   text-align: center;
+  color: #514e4e;
 }
 h1 {
-  margin-bottom: 40px;
+  margin-bottom: 15px;
 }
 hr {
   position: relative;
@@ -78,6 +80,9 @@ h2 + hr:before {
   right: 0;
   margin: 0 auto;
 }
+h3 {
+  margin-bottom: 35px;
+}
 .info {
 
 }
@@ -93,7 +98,7 @@ h2 + hr:before {
   padding-left: 0;
 }
 .skills__holder li {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .projects__head {
   background: #70b161;
