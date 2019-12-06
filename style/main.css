@@ -21,17 +21,21 @@
 body {
   background: rgba(33, 37, 41, 0.83);
   font: 16px 'RalewayRegular', sans-serif;
+  letter-spacing: .04em;
+  color: #605d5d;
+  background: url(../img/back.jpg);
+  background-size: contain;
 }
 .wrap {
   min-width: 320px;
   overflow: hidden;
 }
 .container {
-  -webkit-box-shadow: -1px 2px 17px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: -1px 2px 17px 0px rgba(0,0,0,0.75);
-  box-shadow: -1px 2px 17px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -1px 2px 17px 0px rgba(0,0,0,0.55);
+  -moz-box-shadow: -1px 2px 17px 0px rgba(0,0,0,0.55);
+  box-shadow: -1px 2px 17px 0px rgba(0,0,0,0.55);
   padding: 50px 30px;
-  background: #eeeeee;
+  background: #f9f9f9;
 }
 h1,
 h2 {
@@ -82,7 +86,7 @@ h2 + hr:before {
   margin-bottom: 20px;
 }
 .skills__holder {
-  max-width: 850px;
+  max-width: 900px;
   display: inline-block;
   vertical-align: top;
   list-style: none;
